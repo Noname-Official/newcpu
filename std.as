@@ -58,3 +58,7 @@ ENDM
 MACRO NOT A C
     NOR %A% r0 %C%
 ENDM
+
+MACRO NEG B C
+    SUB r0 %B% %C%
+ENDM
